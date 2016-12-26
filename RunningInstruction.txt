@@ -1,0 +1,24 @@
+cd C:\Users\Tanvir Irfan Fahim\workspace\OSPF_UDP\bin
+java edu.tanvirirfan.chowdhury.server.MyDatagramServer
+
+A 22222
+2
+B 33333 3
+C 44444 5
+
+B 33333
+3
+A 22222 3
+C 44444 1
+D 55555 6
+
+C 44444
+3
+A 22222 5
+B 44444 1
+D 55555 2
+
+D 55555
+2
+C 44444 2
+B 33333 6
